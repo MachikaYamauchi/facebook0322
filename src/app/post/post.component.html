@@ -1,0 +1,18 @@
+<div class="row postWrapper" *ngFor="let post of postList">
+  <div class="col-2">
+    <div>
+      <img [src]="post.profileImg" alt="">
+    </div>
+  </div>
+  <div class="col-10">
+    <div class="profileName">
+      <p>{{post.profileName}}</p>
+    </div>
+    <div class="text">{{post.Text}}</div>
+    <p><app-star></app-star></p>
+    <app-comment></app-comment>
+  </div>
+  <hr>
+</div>
+
+

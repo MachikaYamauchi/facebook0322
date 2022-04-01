@@ -1,0 +1,29 @@
+h3 {
+  background-color: lightgray;
+  padding: 8px;
+}
+
+.customeContent {
+  height: 150px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.wall {
+  background-color: lightgray;
+  margin: 8px 0;
+  padding: 8px;
+  font-weight: 700;
+}
+
+.link {
+  a {
+    margin: 16px 8px;
+  }
+}
+
+
+
